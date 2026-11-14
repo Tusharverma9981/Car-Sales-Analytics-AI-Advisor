@@ -1,0 +1,19 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: CarSales
+
+  datasource:
+    url: jdbc:mysql://localhost:3366/carsales
+    username: root
+    password: tushardata
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+
+  jpa:
+    hibernate:
+      ddl-auto: update
